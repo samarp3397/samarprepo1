@@ -11,4 +11,3 @@ parameters:
         description: Message to print.
         required: true
         position: 0
-© 2019 GitHub, Inc.
