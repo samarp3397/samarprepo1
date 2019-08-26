@@ -11,7 +11,8 @@ class MyAction(Action):
                 	y=json.dumps(x)
 			url='https://fakerestapi.azurewebsites.net/api/Books'
 			res=requests.post(url,data=x)
-			print(y)
+			z=res.json()
+			print(z)
 
 	        except:
                     	sys.exit(0)
