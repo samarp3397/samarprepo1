@@ -32,7 +32,7 @@
         required: true
         position: 4
     pubdate:
-        type: integer
+        type: string
         description: "Book publish."
         required: true
         position: 5
