@@ -3,11 +3,7 @@
 ref: sampack1
 # User-friendly pack name. If this attribute contains spaces or any other special characters, then
 # the "ref" attribute must also be specified (see above).
-<<<<<<< HEAD
 name: samarpg
-=======
-name: Hibfg
->>>>>>> b80b9ea7143f20f4cccee00b2abfdfd95a1b0dbc
 # User-friendly pack description.
 description: Simple pack containing examples of sensor, rule, and action.
 # Keywords which are used when searching for packs.
@@ -28,3 +24,4 @@ email: info@stackstorm.com
 contributors:
   - "John Doe1 <john.doe1@gmail.com>"
   - "John Doe2 <john.doe2@gmail.com>"
+
