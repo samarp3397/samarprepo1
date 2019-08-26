@@ -1,13 +1,13 @@
 ---
-name: "demo2.yaml"
-pack: "sampack1"
+name: demo2
+pack: sampack1
 runner_type: "python-script"
-description: "Print message to standard output."
+description: Print message to standard output.
 enabled: true
-entry_point: "demo2.py"
+entry_point: demo2.py
 parameters:
     url:
-        type: "string"
-        description: "Message to print."
+        type: string
+        description: Message to print.
         required: true
         position: 0
