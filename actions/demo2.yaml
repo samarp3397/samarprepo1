@@ -5,7 +5,7 @@ description: "Print message to standard output."
 enabled: true
 entry_point: "demo2.py"
 parameters:
-    message:
+    url:
         type: "string"
         description: "Message to print."
         required: true
