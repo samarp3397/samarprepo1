@@ -6,7 +6,7 @@ description: Get book id.
 enabled: true
 entry_point: demo4.py
 parameters:
-    url:
+    id:
         type: string
         description: Message to print.
         required: true
