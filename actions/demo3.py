@@ -9,8 +9,9 @@ class MyAction(Action):
                 try:
               		x={"ID": id,"Title": title,"Description": desc,"PageCount": pagecount,"Excerpt": excerpt,"PublishDate": pubdate}
                 	y=json.dumps(x)
+			headers={'content-type': 'application/json'}
 			url='https://fakerestapi.azurewebsites.net/api/Books'
-			res=requests.post(url,data=x)
+			res=requests.post(url,headers=headers,data=x)
 			z=res.json()
 			print(z)
 
