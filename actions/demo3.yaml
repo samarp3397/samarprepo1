@@ -1,7 +1,8 @@
 --- 
- name: "demo3.yaml"
+ name: demo3
+ pack: sampack1
  runner_type: "python-script"
- description: "Print message to standard output."
+ description: Print message to standard output.
  enabled: true
  entry_point: "demo3.py" 
  parameters:
