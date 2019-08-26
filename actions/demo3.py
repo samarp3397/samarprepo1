@@ -12,6 +12,7 @@ class MyAction(Action):
 			headers={'content-type': 'application/json'}
 			url='https://fakerestapi.azurewebsites.net/api/Books'
 			res=requests.post(url,headers=headers,data=x)
+			print(res)
 			z=res.json()
 			print(z)
 
